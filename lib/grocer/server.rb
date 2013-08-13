@@ -40,7 +40,6 @@ module Grocer
         @server = nil
       end
 
-      @clients.each(&:close)
       @clients = []
     end
   end
